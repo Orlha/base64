@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project(base64)
 
-option(BASE64_ENABLE_TESTING "Build test files." ON)
+option(BASE64_ENABLE_TESTING "Build test files." OFF)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
